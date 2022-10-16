@@ -1,0 +1,1480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    overflow: auto;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.topbar{
+    margin: 0 50px;
+}
+.logo{
+    float: left;
+}
+.tcontact{
+    float: right;
+}
+.tcontact1{
+    float: left;
+    margin: 40px 0px 30px 50px;
+}
+.tcontact .tcontact1 i{
+    font-size: 21px;
+    margin-right: 10px;
+}
+.tcontact .tcontact1 a{
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: poppins;
+    color: black;
+}
+.tcontact .tcontact1 a:hover{
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: poppins;
+    color: #2596be;
+}
+nav{
+    background: #000000e3;
+    height: 80px;
+    width: 100%;
+}
+label.menu{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    margin-left: 40px;
+    font-weight: bold;
+    display: none;
+}
+nav ul{
+    text-align: center;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 2px;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: poppins;
+}
+.active,nav ul li a:hover{
+    border-bottom: 2px solid #2596be;
+    color: #2596be;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none;
+}
+.slider img{
+    width: 100%;
+    float: left;
+}
+.welcome{
+    width: 100%;
+}
+.welcome .welcomeimg{
+    width: 40%;
+    float: left;
+}
+.welcome .welcomeimg img{
+    width: 100%;
+}
+.welcome .welcometxt{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+.welcometxt h1{
+    color: #2596be;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 50px 0 50px 0;
+}
+.welcometxt p{
+    font-size: 17px;
+    font-family: poppins;
+}
+.about{
+    width: 100%;
+    float: left;
+}
+.abouttxt{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+}
+.abouttxt h2{
+    color: #2596be;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 50px 0 50px 0;
+}
+.abouttxt p{
+    font-size: 17px;
+    font-family: poppins;
+    margin-bottom: 20px;
+}
+.aboutimg{
+    width: 40%;
+    float: left;
+}
+.aboutimg img{
+    width: 50%;
+    margin-left: 50%;
+}
+.aboutbtn{
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+.aboutbtn button{
+    margin-left: 5%;
+    color: black;
+    border: none;
+    background-color: #2596be;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 17px;
+}
+.aboutbtn button:hover{
+    margin-left: 5%;
+    color: #ffffff;
+    border: none;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 17px;
+}
+.aboutbtn button a{
+    text-decoration: none;
+    color: black;
+}
+.aboutbtn button a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.service{
+    background-image: url("../img/service1.png");
+    width: 100%;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+.service h2{
+    width: 80%;
+    margin: 60px auto;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2596be;
+}
+.service p{
+    width: 80%;
+    margin: 60px auto;
+    font-family: poppins;
+    color: white;
+}
+.service button{
+    background-color: #2596be;
+    color: black;
+    font-size: 15px;
+    font-family: poppins;
+    margin: 50px 50px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.service button:hover{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: poppins;
+    margin: 50px 50px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.gallery{
+    width: 100%;
+    margin: 70px auto;
+}
+.gallerytxt{
+    width: 100%;
+    text-align: center;
+}
+.gallerytxt h2{
+    margin: 60px auto;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2596be;
+}
+.galleryimg{
+    width: 90%;
+    margin: 0 5% 0 5%;
+    padding: 0 auto;
+}
+.box{
+    width:270px;
+    float: left;
+    margin: 16px 16px;
+    background: #ffffff;        
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #000000;
+}
+.box img{
+    width: 100%;
+    margin: 0 auto;
+}
+.gallerybtn{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.gallerybtn button{
+    background-color: #2596be;
+    color: black;
+    font-size: 15px;
+    font-family: poppins;
+    margin: 80px 50px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.gallerybtn button:hover{
+    background-color: black;
+    color:  white;
+    font-size: 15px;
+    font-family: poppins;
+    margin: 80px 50px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.footer{
+    background: #000000;
+    width: 100%;
+    margin: 0 auto;
+}
+.footercont{
+    width: 90%;
+    margin: 20px auto;
+}
+.footercont h3{
+    margin: 30px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footercont p{
+    font-size: 16px;
+    font-family: poppins;
+}
+.col1{
+    width:400px;
+    float: left;
+    margin: 20px 40px;
+    color: #ffffff;
+}
+.col2{
+    width:150px;
+    float: left;
+    margin: 20px 40px;
+    color: #ffffff;
+}
+.col2 ul {
+    display: block;
+}
+.col2 ul li{
+    list-style: none;
+}
+.col2 ul li a{
+    color: white;
+    line-height: 2rem;
+    font-size: 16px;
+    font-family: poppins;
+    text-decoration: none;
+}
+.col2 ul li a:hover{
+    color: #2596be;
+    border-bottom: 1px solid #2596be;
+    line-height: 2rem;
+    font-size: 16px;
+    font-family: poppins;
+    text-decoration: none;
+}
+.col2 ul li .active{
+    color: #2596be;
+    border-bottom: 1px solid #2596be;
+}
+.col3{
+    width:150px;
+    float: left;
+    margin: 20px 40px;
+    color: #ffffff;
+}
+.col3 i{
+    font-size: 17px;
+    float: left;
+    margin-right: 10px;
+    color: #ffffff;
+}
+.col3 h4{
+    font-family: poppins;
+    color: #ffffff;
+}
+.col3 a{
+    text-decoration: none;
+    font-family: poppins;
+    color: #ffffff;
+}
+.col3 a:hover{
+    text-decoration: none;
+    font-family: poppins;
+    color: #2596be;
+}
+.col4{
+    width: 180px;
+    float: left;
+    margin: 20px 40px;
+    color: #ffffff;
+}
+
+.col4 ul li{
+    list-style: none;
+    display: inline;
+}
+.col4 ul li a{
+    background-color: #ffffff;
+    font-size: 17px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 3px;
+}
+.col4 ul li a:hover{
+    background-color: #2596be;
+    font-size: 17px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 3px;
+}
+.privacy{
+    float:left;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: #1d1d1df5;
+}
+.privacycont{
+    width: 100%;
+    margin: 0 auto;
+}
+.privacy p{
+    width: 100%;
+    font-family: poppins;
+    color: white;
+    margin: 15px auto;
+    float: left;
+}
+.privacy .privacycont img{
+    float: left;
+    margin: 15px auto 0 auto;
+}
+.privacy p a{
+    font-family: poppins;
+    color: white;
+    margin: 15px 3px;
+    text-decoration: none;
+}
+.privacy p a:hover{
+    font-family: poppins;
+    color: #2596be;
+    margin: 15px 3px;
+    text-decoration: none;
+}
+.privacy .web{
+    color: #ff5252b6;
+    font-family: 'Lobster', cursive;
+}
+.privacy .web:hover{
+    color: #2596be;
+    font-family: 'Lobster', cursive;
+}
+
+@media  screen and (min-width:1280px) and (max-width:1366px)  {
+    .box{
+        width:250px;
+        float: left;
+        margin: 16px 16px;
+        background: #ffffff;        
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .col3{
+        width:140px;
+        float: left;
+        margin: 20px 40px;
+        color: #ffffff;
+    }
+    .col4{
+        width: 160px;
+        float: left;
+        margin: 20px 30px;
+        color: #ffffff;
+    }
+    .privacycont{
+        width: 55%;
+        margin: 0 auto;
+    }
+}
+
+@media  screen and (min-width:1367px) and (max-width:1440px)  {
+    .box{
+        width:290px;
+        float: left;
+        margin: 16px 16px;
+        background: #ffffff;        
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .col1{
+        width:500px;
+        float: left;
+        margin: 20px 40px;
+        color: #ffffff;
+    }
+    .col3{
+        width:150px;
+        float: left;
+        margin: 20px 40px;
+        color: #ffffff;
+    }
+    .col4{
+        width: 160px;
+        float: left;
+        margin: 20px 30px;
+        color: #ffffff;
+    }
+    .privacycont{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media  screen and (min-width:1441px) and (max-width:1920px)  {
+    .gallery{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .galleryimg{
+        width: 70%;
+        margin: 0px auto;
+    }.box{
+        width:290px;
+        float: left;
+        margin: 16px 16px;
+        background: #ffffff;        
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .col1{
+        width:550px;
+        float: left;
+        margin: 20px 60px;
+        color: #ffffff;
+    }
+    .col2{
+        width:250px;
+        float: left;
+        margin: 20px 70px;
+        color: #ffffff;
+    }
+    
+    .col3{
+        width:200px;
+        float: left;
+        margin: 20px 50px;
+        color: #ffffff;
+    }
+    .col4{
+        width: 200px;
+        float: left;
+        margin: 20px 30px;
+        color: #ffffff;
+    }
+    .privacy{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .privacycont{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/*mobile devivces*/
+@media screen and (max-width:340px)  {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .topbar{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+   
+    .logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .logo{
+        width: 100%;
+    }
+    .tcontact{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tcontact1{
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+        width: 100%;
+    }
+    .tcontact .tcontact1 i{
+        font-size: 22px;
+    }
+    .tcontact .tcontact1 a{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: poppins;
+        color: black;
+        text-align: center;
+    }
+    .tcontact .tcontact1 a:hover{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: poppins;
+        color: #2596be;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        position: relative;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        background: #000000;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 5px;
+    }
+    nav ul li a{
+        font-size: 17px;
+        font-family: poppins;
+    }
+    nav ul li a:hover,a:active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    label.menu{
+        color: white;
+        font-size: 20px;
+        line-height: 80px;
+        margin-left: 40px;
+        display: block;        
+        font-family: poppins;
+    }
+    .welcome{
+        width: 100%;
+
+    }
+    .welcome .welcomeimg{
+        width: 100%;
+        display: none;
+    }
+    .welcome .welcomeimg img{
+        width: 100%;
+        margin:0 auto;
+        display: none;
+    }
+    .welcome .welcometxt{
+        width: 95%;
+        margin: 0 5%;
+        float: left;
+    }
+    .welcometxt h1{
+        color: #2596be;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .welcometxt p{
+        font-size: 17px;
+        font-family: poppins;
+    }
+    .about{
+        width: 95%;
+        margin: 0 5%;
+    }
+    .about .abouttxt{
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    .abouttxt h2{
+        color: #2596be;
+        font-size: 35px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .abouttxt p{
+        font-size: 16px;
+        font-family: poppins;
+    }
+    .about .aboutimg{
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+    .about .aboutimg img{
+        width: 100%;
+        margin:0 auto;
+        float: left;
+    }
+    .aboutbtn{
+        width: 100%;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .aboutbtn button{
+        color: black;
+        border: none;
+        background-color: #2596be;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: 17px;
+    }
+    .aboutbtn button:hover{
+        color: #ffffff;
+        border: none;
+        background-color: black;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: 17px;
+    }
+    .gallery{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallerytxt{
+        width: 95%;
+        text-align: center;
+        margin: 0 2% 0 2%;
+    }
+    .gallerytxt h2{
+        margin: 60px auto;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #2596be;
+    }
+    .galleryimg{
+        width: 90%;
+        margin: 0 5% 0 5%;
+        padding: 0 auto;
+        justify-content: center;
+        display: block;
+    }
+    .box{
+        width:100%;
+        justify-content: center;
+        display: block;
+        margin: 16px auto;
+        background: #ffffff;        
+        padding: 12px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .box img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallerybtn{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .privacy{
+        width: 100%;
+        margin: 0 auto 0 auto;
+        background-color: #1d1d1df5;
+    }
+    .privacycont{
+        width: 98%;
+        margin: 0 auto;
+    }    
+    .privacy p a{
+        margin: 3px;
+    }
+    .privacy p a:hover{
+        margin: 3px;
+        
+    } 
+.footercont{
+    width: 90%;
+    margin: 20px 5% 20px 5%;
+}
+.footercont h3{
+    margin: 30px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footercont p{
+    font-size: 15px;
+    font-family: poppins;
+}
+.col1{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col2{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col2 ul {
+    display: block;
+}
+.col2 ul li{
+    list-style: none;
+}
+
+.col3{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col3 p{
+    margin-left: 25px;
+}
+
+
+.col4{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col4 ul li{
+    list-style: none;
+    display: inline;
+}
+
+}
+
+@media screen and (max-width:450px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .topbar{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+   
+    .logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .logo{
+        width: 100%;
+    }
+    .tcontact{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tcontact1{
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+        width: 100%;
+    }
+    .tcontact .tcontact1 i{
+        font-size: 22px;
+    }
+    .tcontact .tcontact1 a{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: poppins;
+        color: black;
+        text-align: center;
+    }
+    .tcontact .tcontact1 a:hover{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: poppins;
+        color: #2596be;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        position: relative;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        background: #000000;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 5px;
+    }
+    nav ul li a{
+        font-size: 17px;
+        font-family: poppins;
+    }
+    nav ul li a:hover,a:active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    label.menu{
+        color: white;
+        font-size: 20px;
+        line-height: 80px;
+        margin-left: 40px;
+        display: block;        
+        font-family: poppins;
+    }
+    .welcome{
+        width: 100%;
+
+    }
+    .welcome .welcomeimg{
+        width: 100%;
+        display: none;
+    }
+    .welcome .welcomeimg img{
+        width: 100%;
+        margin:0 auto;
+        display: none;
+    }
+    .welcome .welcometxt{
+        width: 95%;
+        margin: 0 5%;
+        float: left;
+    }
+    .welcometxt h1{
+        color: #2596be;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .welcometxt p{
+        font-size: 17px;
+        font-family: poppins;
+    }
+    .about{
+        width: 95%;
+        margin: 0 5%;
+    }
+    .about .abouttxt{
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    .abouttxt h2{
+        color: #2596be;
+        font-size: 35px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .abouttxt p{
+        font-size: 16px;
+        font-family: poppins;
+    }
+    .about .aboutimg{
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+    .about .aboutimg img{
+        width: 100%;
+        margin:0 auto;
+        float: left;
+    }
+    .aboutbtn{
+        width: 100%;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .aboutbtn button{
+        color: black;
+        border: none;
+        background-color: #2596be;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: 17px;
+    }
+    .aboutbtn button:hover{
+        color: #ffffff;
+        border: none;
+        background-color: black;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: 17px;
+    }
+    .gallery{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallerytxt{
+        width: 95%;
+        text-align: center;
+        margin: 0 2% 0 2%;
+    }
+    .gallerytxt h2{
+        margin: 60px auto;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #2596be;
+    }
+    .galleryimg{
+        width: 90%;
+        margin: 0 5% 0 5%;
+        padding: 0 auto;
+        justify-content: center;
+        display: block;
+    }
+    .box{
+        width:100%;
+        justify-content: center;
+        display: block;
+        margin: 16px auto;
+        background: #ffffff;        
+        padding: 12px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .box img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallerybtn{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .privacy{
+        width: 100%;
+        margin: 0 auto 0 auto;
+        background-color: #1d1d1df5;
+    }
+    .privacycont{
+        width: 98%;
+        margin: 0 auto;
+    }    
+    .privacy p a{
+        margin: 3px;
+    }
+    .privacy p a:hover{
+        margin: 3px;
+        
+    } 
+.footercont{
+    width: 90%;
+    margin: 20px 5% 20px 5%;
+}
+.footercont h3{
+    margin: 30px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footercont p{
+    font-size: 15px;
+    font-family: poppins;
+}
+.col1{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col2{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col2 ul {
+    display: block;
+}
+.col2 ul li{
+    list-style: none;
+}
+
+.col3{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col3 p{
+    margin-left: 25px;
+}
+
+
+.col4{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col4 ul li{
+    list-style: none;
+    display: inline;
+}
+}
+
+@media screen and (max-width:767px){
+    .container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .topbar{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+   
+    .logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .logo{
+        width: 100%;
+    }
+    .tcontact{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tcontact1{
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+        width: 100%;
+    }
+    .tcontact .tcontact1 i{
+        font-size: 22px;
+    }
+    .tcontact .tcontact1 a{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: poppins;
+        color: black;
+        text-align: center;
+    }
+    .tcontact .tcontact1 a:hover{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: poppins;
+        color: #2596be;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        position: relative;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        background: #000000;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 5px;
+    }
+    nav ul li a{
+        font-size: 17px;
+        font-family: poppins;
+    }
+    nav ul li a:hover,a:active{
+        background: none;
+        color: #2596be;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    label.menu{
+        color: white;
+        font-size: 20px;
+        line-height: 80px;
+        margin-left: 40px;
+        display: block;        
+        font-family: poppins;
+    }
+    .welcome{
+        width: 100%;
+
+    }
+    .welcome .welcomeimg{
+        width: 100%;
+        display: none;
+    }
+    .welcome .welcomeimg img{
+        width: 100%;
+        margin:0 auto;
+        display: none;
+    }
+    .welcome .welcometxt{
+        width: 95%;
+        margin: 0 5%;
+        float: left;
+    }
+    .welcometxt h1{
+        color: #2596be;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .welcometxt p{
+        font-size: 17px;
+        font-family: poppins;
+    }
+    .about{
+        width: 95%;
+        margin: 0 5%;
+    }
+    .about .abouttxt{
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    .abouttxt h2{
+        color: #2596be;
+        font-size: 35px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .abouttxt p{
+        font-size: 16px;
+        font-family: poppins;
+    }
+    .about .aboutimg{
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+    .about .aboutimg img{
+        width: 100%;
+        margin:0 auto;
+        float: left;
+    }
+    .aboutbtn{
+        width: 100%;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .aboutbtn button{
+        color: black;
+        border: none;
+        background-color: #2596be;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: 17px;
+    }
+    .aboutbtn button:hover{
+        color: #ffffff;
+        border: none;
+        background-color: black;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: 17px;
+    }
+    .gallery{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallerytxt{
+        width: 95%;
+        text-align: center;
+        margin: 0 2% 0 2%;
+    }
+    .gallerytxt h2{
+        margin: 60px auto;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #2596be;
+    }
+    .galleryimg{
+        width: 90%;
+        margin: 0 5% 0 5%;
+        padding: 0 auto;
+        justify-content: center;
+        display: block;
+    }
+    .box{
+        width:100%;
+        justify-content: center;
+        display: block;
+        margin: 16px auto;
+        background: #ffffff;        
+        padding: 12px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .box img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gallerybtn{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .privacy{
+        width: 100%;
+        margin: 0 auto 0 auto;
+        background-color: #1d1d1df5;
+    }
+    .privacycont{
+        width: 98%;
+        margin: 0 auto;
+    }    
+    .privacy p a{
+        margin: 3px;
+    }
+    .privacy p a:hover{
+        margin: 3px;
+        
+    } 
+.footercont{
+    width: 90%;
+    margin: 20px 5% 20px 5%;
+}
+.footercont h3{
+    margin: 30px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footercont p{
+    font-size: 15px;
+    font-family: poppins;
+}
+.col1{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col2{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col2 ul {
+    display: block;
+}
+.col2 ul li{
+    list-style: none;
+}
+
+.col3{
+    width:100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col3 p{
+    margin-left: 25px;
+}
+
+
+.col4{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.col4 ul li{
+    list-style: none;
+    display: inline;
+}
+}
+/*portrait view*/
+@media (min-width:768px) and (max-width:991px){
+    .welcome .welcomeimg{
+        width: 40%;
+        float: left;
+        margin: 20% auto;
+    }
+    .aboutimg{
+        width: 40%;
+        float: left;
+        margin: 20% auto;
+    }
+    .galleryimg{
+        width: 90%;
+        margin: 0 5% 0 5%;
+        padding: 0 5% 0 5%;
+    }
+    .box{
+        width: 150px;
+        float: left;
+        margin: 16px 16px;
+        background: #ffffff;        
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .footercont{
+        width: 90%;
+        margin: 0px;
+    }
+    .col1{
+        width:60%;
+        float: left;
+        margin: 20px 30px;
+    }
+    .col2{
+        width:30%;
+        float: left;
+        margin: 20px 0px;
+    }
+    .col3{
+        width:200px;
+        float: left;
+        margin: 20px 30px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .welcome .welcomeimg{
+        width: 40%;
+        float: left;
+        margin: 5% auto;
+    }
+    .aboutimg{
+        width: 40%;
+        float: left;
+        margin: 5% auto;
+    }
+    .galleryimg{
+        width: 90%;
+        margin: 0 5% 0 5%;
+        padding: 0 5% 0 5%;
+    }
+    .box{
+        width: 150px;
+        float: left;
+        margin: 16px 16px;
+        background: #ffffff;        
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000000;
+    }
+    .footercont{
+        width: 90%;
+        margin: 0px;
+    }
+    .col1{
+        width:60%;
+        float: left;
+        margin: 20px 30px;
+    }
+    .col2{
+        width:30%;
+        float: left;
+        margin: 20px 0px;
+    }
+    .col3{
+        width:200px;
+        float: left;
+        margin: 20px 30px;
+    }
+}
